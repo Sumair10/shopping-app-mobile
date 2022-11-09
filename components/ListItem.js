@@ -1,13 +1,19 @@
 import React from 'react';
-import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet, TouchableOpacity , Image } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome'
 
-function ListItem({item , deleteItem}) {
+function ListItem({image  , changeFlag}) {
   return (
     <TouchableOpacity style={styles.listItem}>
       <View style={styles.listItemView}>
-        <Text style={styles.listItemText}>{item.text}</Text>
-        <Icon name = "remove" size ={20} color="firebrick" onPress={()=>deleteItem(item.id)}/>
+        <Text style={styles.listItemText}>{image._id}</Text>
+        <Image
+        style={styles.image}
+        source={{
+          uri: `${image.imageURL}`
+        }}
+      />
+        <Icon name = "remove" size ={20} color="firebrick" onPress={()=>changeFlag(image._id)}/>
       </View>
     </TouchableOpacity>
   );
@@ -27,6 +33,10 @@ const styles = StyleSheet.create({
     },
     listItemText :{
         fontSize :18
+    },
+    image : {
+      width : 100,
+      height :100
     }
     
 });
