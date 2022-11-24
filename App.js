@@ -70,15 +70,15 @@ const App = () => {
     }
   };
 
-  useEffect(() => {
-    if(images){
+  // useEffect(() => {
+  //   if(images){
 
-      setTimeout(() => {
-        changeFlag(images[0]._id);
-        setFlag(false)
-      }, 5000);
-    }
-  }, [flag]);
+  //     setTimeout(() => {
+  //       changeFlag(images[0]._id);
+  //       setFlag(false)
+  //     }, 5000);
+  //   }
+  // }, [flag]);
 
   const getImages = () => {
     console.log('get images');
