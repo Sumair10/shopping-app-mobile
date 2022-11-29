@@ -60,15 +60,15 @@ const App = () => {
       });
   };
 
-//   const addItem = item => {
-//     if (!item) {
-//       Alert.alert('Error', 'Please enter an item', [{text: 'Ok'}]);
-//     } else {
-//       setItems(prevItem => {
-//         return [{id: uuid.v4(), text: item}, ...prevItem];
-//       });
-//     }
-// };
+  const addItem = item => {
+    if (!item) {
+      Alert.alert('Error', 'Please enter an item', [{text: 'Ok'}]);
+    } else {
+      setItems(prevItem => {
+        return [{id: uuid.v4(), text: item}, ...prevItem];
+      });
+    }
+};
 
   // useEffect(() => {
   //   if(images){
