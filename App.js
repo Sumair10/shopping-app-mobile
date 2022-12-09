@@ -43,7 +43,7 @@ const App = () => {
   };
 
   const changeFlag = id => {
-    console.log('change flag', id);
+    // console.log('change flag', id);
 
     axios
       .post('http://192.168.18.208:4000/image/changeFlag', {
@@ -55,7 +55,7 @@ const App = () => {
         setImages(a);
         // console.log("images" , a)
       })
-      // .catch(function (error) {
+      .catch(function (error) {
         console.log(error);
       });
   };
