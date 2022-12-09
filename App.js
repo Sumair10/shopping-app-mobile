@@ -55,8 +55,8 @@ const App = () => {
         setImages(a);
         // console.log("images" , a)
       })
-      // .catch(function (error) {
-        // console.log(error);
+      .catch(function (error) {
+        console.log(error);
       });
   };
 
