@@ -56,7 +56,7 @@ const App = () => {
         // console.log("images" , a)
       })
       .catch(function (error) {
-        // console.log(error);
+        console.log(error);
       });
   };
 
