@@ -43,13 +43,13 @@ const App = () => {
   };
 
   const changeFlag = id => {
-    console.log('change flag', id);
+    // console.log('change flag', id);
 
     axios
       .post('http://192.168.18.208:4000/image/changeFlag', {
         id: id,
       })
-      .then(function (response) {
+      // .then(function (response) {
         // console.log("===============>", response.data);
         const a = images.filter(image => image._id !== id);
         setImages(a);
