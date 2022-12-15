@@ -50,7 +50,7 @@ const App = () => {
         id: id,
       })
       .then(function (response) {
-        // console.log("===============>", response.data);
+        console.log("===============>", response.data);
         // const a = images.filter(image => image._id !== id);
         setImages(a);
         // console.log("images" , a)
