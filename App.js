@@ -42,7 +42,7 @@ const App = () => {
     });
   };
 
-  // const changeFlag = id => {
+  const changeFlag = id => {
     console.log('change flag', id);
 
     axios
