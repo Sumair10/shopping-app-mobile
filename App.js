@@ -46,7 +46,7 @@ const App = () => {
     console.log('change flag', id);
 
     axios
-      // .post('http://192.168.18.208:4000/image/changeFlag', {
+      .post('http://192.168.18.208:4000/image/changeFlag', {
         id: id,
       })
       .then(function (response) {
