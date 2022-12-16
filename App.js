@@ -51,7 +51,7 @@ const App = () => {
       })
       .then(function (response) {
         // console.log("===============>", response.data);
-        const a = images.filter(image => image._id !== id);
+        // const a = images.filter(image => image._id !== id);
         setImages(a);
         // console.log("images" , a)
       })
