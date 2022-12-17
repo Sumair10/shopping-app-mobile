@@ -90,8 +90,8 @@ const App = () => {
           console.log('enter in iff');
           Alert.alert('Error', 'No more images available', [{text: 'Ok'}]);
         } else {
-          if (images.length > 0) {
-            setImages([...images, ...response.data]);
+          // if (images.length > 0) {
+            // setImages([...images, ...response.data]);
             // setTimeout(() => {
             //   changeFlag(response.data[0]._id);
             // }, 5000);
