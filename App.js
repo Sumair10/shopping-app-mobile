@@ -108,7 +108,7 @@ const App = () => {
   };
 
   return (
-    // <View style={styles.container}>
+    <View style={styles.container}>
       {/* <Header title="Get Images App" /> */}
       {/* <AddItem addItem={addItem}/> */}
       <GetImages getImages={getImages} />
