@@ -121,7 +121,7 @@ const App = () => {
         />
       ) : null}
     </View>
-  );
+  // );
 };
 const styles = StyleSheet.create({
   container: {
