@@ -119,7 +119,7 @@ const App = () => {
             <ListItem image={item} changeFlag={changeFlag} />
           )}
         />
-      ) : null}
+      // ) : null}
     </View>
   );
 };
