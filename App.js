@@ -118,7 +118,7 @@ const App = () => {
           renderItem={({item}) => (
             <ListItem image={item} changeFlag={changeFlag} />
           )}
-        />
+        // />
       ) : null}
     </View>
   );
