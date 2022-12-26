@@ -115,7 +115,7 @@ const App = () => {
       // {images ? (
         <FlatList
           data={images}
-          // renderItem={({item}) => (
+          renderItem={({item}) => (
             <ListItem image={item} changeFlag={changeFlag} />
           )}
         />
