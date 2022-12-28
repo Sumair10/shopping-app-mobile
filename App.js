@@ -114,9 +114,9 @@ const App = () => {
       <GetImages getImages={getImages} />
       {images ? (
         <FlatList
-          // data={images}
-          // renderItem={({item}) => (
-            // <ListItem image={item} changeFlag={changeFlag} />
+          data={images}
+          renderItem={({item}) => (
+            <ListItem image={item} changeFlag={changeFlag} />
           )}
         />
       ) : null}
