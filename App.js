@@ -112,7 +112,7 @@ const App = () => {
       <Header title="Get Images App" />
       <AddItem addItem={addItem}/>
       <GetImages getImages={getImages} />
-      {/* {images ? (s */}
+      {/* {images ? ( */}
         // <FlatList
           // data={images}
           // renderItem={({item}) => (
