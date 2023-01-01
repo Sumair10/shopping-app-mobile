@@ -93,10 +93,10 @@ const App = () => {
           if (images.length > 0) {
             // setImages([...images, ...response.data]);
             // setTimeout(() => {
-              changeFlag(response.data[0]._id);
+            //   changeFlag(response.data[0]._id);
             // }, 5000);
           } else {
-            // setImages(response.data);
+            setImages(response.data);
             setFlag(true)
            
           }
