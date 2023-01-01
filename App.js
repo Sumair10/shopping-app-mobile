@@ -102,13 +102,14 @@ const App = () => {
           }
         }
       })
-      // .catch(function (error) {
+      .catch(function (error) {
         console.log(error);
       });
   };
 
   return (
     <View style={styles.container}>
+      <Header title="Get Images App" />
       <AddItem addItem={addItem}/>
       <GetImages getImages={getImages} />
       {images ? (
