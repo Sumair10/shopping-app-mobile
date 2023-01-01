@@ -95,7 +95,7 @@ const App = () => {
             // setTimeout(() => {
             //   changeFlag(response.data[0]._id);
             // }, 5000);
-          } else {
+          // } else {
             setImages(response.data);
             setFlag(true)
            
@@ -104,7 +104,7 @@ const App = () => {
       })
       .catch(function (error) {
         console.log(error);
-      });
+      // });
   };
 
   return (
