@@ -96,7 +96,7 @@ const App = () => {
             //   changeFlag(response.data[0]._id);
             // }, 5000);
           } else {
-            setImages(response.data);
+            // setImages(response.data);
             setFlag(true)
            
           }
