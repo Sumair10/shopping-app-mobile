@@ -111,7 +111,7 @@ const App = () => {
     <View style={styles.container}>
       <Header title="Get Images App" />
       <AddItem addItem={addItem}/>
-      {/* <GetImages getImages={getImages} /> */}
+      <GetImages getImages={getImages} />
       {/* {images ? ( */}
         <FlatList
           data={images}
