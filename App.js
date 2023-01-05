@@ -102,7 +102,7 @@ const App = () => {
           }
         }
       })
-      // .catch(function (error) {
+      .catch(function (error) {
         console.log(error);
       });
   };
