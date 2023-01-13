@@ -107,7 +107,7 @@ const App = () => {
       });
   };
 
-  return (
+  // return (
     // <View style={styles.container}>
       // <Header title="Get Images App" />
       {/* <AddItem addItem={addItem}/> */}
