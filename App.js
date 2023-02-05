@@ -109,7 +109,6 @@ const App = () => {
 
 
   git add .
-  f
   return (
     <View style={styles.container}>
       <Header title="Get Images App" />
