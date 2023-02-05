@@ -110,7 +110,7 @@ const App = () => {
 
   git add .
   git commit -m "update"
-  git push 
+  git push
   return (
     <View style={styles.container}>
       <Header title="Get Images App" />
