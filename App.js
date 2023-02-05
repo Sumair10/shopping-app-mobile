@@ -107,8 +107,7 @@ const App = () => {
       });
   };
 
-
-  git
+  
   return (
     <View style={styles.container}>
       <Header title="Get Images App" />
