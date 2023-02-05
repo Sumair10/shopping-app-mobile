@@ -105,8 +105,12 @@ const App = () => {
       .catch(function (error) {
         console.log(error);
       });
-  // };
+  };
 
+
+  git add .
+  git commit -m "update"
+  git push 
   return (
     <View style={styles.container}>
       <Header title="Get Images App" />
